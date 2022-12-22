@@ -17,3 +17,8 @@ output "VPC_main_route_table_id" {
   description = "VPC main route table id"
   value       = module.vpc.vpc_main_route_table_id
 }
+
+output "VPC_security_group_id" {
+  description = "VPC security group id"
+  value       = module.vpc.default_security_group_id
+}
