@@ -3,6 +3,16 @@ output "VPC_ID" {
   value       = module.vpc.vpc_id
 }
 
+output "VPC_NAME" {
+  description = "The ID of the created VPC."
+  value       = module.vpc.name
+}
+
+output "VPC_CIDR" {
+  description = "VPC CIDR"
+  value       = module.vpc.vpc_cidr_block
+}
+
 output "VPC_Private_Subnets" {
   description = "VPC Private Subnets"
   value       = module.vpc.private_subnets
@@ -22,3 +32,4 @@ output "VPC_security_group_id" {
   description = "VPC security group id"
   value       = module.vpc.default_security_group_id
 }
+
