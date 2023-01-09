@@ -20,5 +20,6 @@ module "vpc" {
     Owner     = "David Gidony"
     Env       = "Maturity-Workshop"
     Terraform = "True"
+    Phase     = var.Phase
   }
 }
