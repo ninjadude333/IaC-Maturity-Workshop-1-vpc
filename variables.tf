@@ -1,7 +1,7 @@
 variable "vpc_name" {
   description = "The Name of the VPC."
   type        = string
-  default     = "MatureVPC"
+  default     = "Maturity-Phase3"
 }
 
 variable "aws_region" {
